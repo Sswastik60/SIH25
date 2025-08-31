@@ -1,0 +1,57 @@
+.header{
+    width: 95%;
+    display: flex;
+    font-family: Poppins;
+    font-weight: 400;
+    margin: 0 0;
+    align-items: flex-end;
+    align-content: flex-end;
+    padding: 1rem;
+    position: relative; 
+
+}
+.N{
+    font-family: 'Paytone One', sans-serif;
+    font-weight: 600;
+    font-size: 3rem;
+    color: #ff0040;
+    display: flex;
+    
+}
+.navbar{
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    padding: 1rem ;
+    position: relative; 
+    width: 95%;
+    top: -6.5rem;
+}
+
+.navbar ul,ul a{
+    text-decoration: none;
+    list-style: none;
+    display: flex;
+    gap: 2rem;
+    font-family: Poppins;
+    color: black;  
+    position: relative;  
+}
+.navbar ul li a {
+    color: #000000;
+    
+    transition: all 0.7s ease;
+}
+
+.navbar ul li a:hover{
+    color: #ff0040;
+}
+
+main{
+    font-family: Poppins;
+}
+.busroute,.city{
+    display: flex;
+    margin-top: 0.5rem;
+    gap: 1rem;
+}
