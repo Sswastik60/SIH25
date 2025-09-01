@@ -2,16 +2,15 @@
 <html lang="en">
 <head>
   <link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Paytone+One&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
-  <meta charset="UTF-8">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Jura:wght@300..700&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>NavifyX</title>
-  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="Style Sheet Default.css">
 </head>
 <body>
   <div class="header">
-    <h1><span style="color:#FA003F;">N</span>avifyX</h1>
+    <h1><span style="color:#deae9f;">N</span>avifyX</h1>
   </div>
   <div class="navbar">
     <ul>
@@ -21,52 +20,55 @@
     </ul>
   </div>
   <main>
-    <div class="city">
-      <label for="city">Choose your city:</label>
-      <select id="city" name="city">
-      <option value="">--Select a city--</option>
-      <option value="delhi">Delhi</option>
-      <option value="mumbai">Mumbai</option>
-      <option value="bengaluru">Bengaluru</option>
-      <option value="kolkata">Kolkata</option>
-      <option value="chennai">Chennai</option>
-      </select>
-    </div>
-    <div class="busroute">
-      <label for="busroute">Choose your bus route:</label>
-      <select id="busroute" name="busroute">
-      <option value="">--Select a bus route--</option>
-      <option value="route1">Route 1</option>
-      <option value="route2">Route 2</option>
-      <option value="route3">Route 3</option>
-      <option value="route4">Route 4</option>
-      <option value="route5">Route 5</option>
-      </select>
-    </div>
-    <div class="map">
-      <h2>Map will be displayed here</h2>
-      <p>(Map integration coming soon)</p>
-    </div>
-    <div class="info">
-      <h2>Bus Information</h2>
-      <p>Select a city and bus route to see details here.</p>
-    </div>
-    <div class="eta">
-      <h2>Estimated Time of Arrival (ETA)</h2>
-      <p>Select a bus route to see ETA here.</p>
-    </div>
-    <div class="routeinfo">
-      <h2>Route Information</h2>
-      <p>Select a bus route to see route details here.</p>
-    </div>
-    <div class="lowbandwidthbutton">
-      <h2>Click Here to select low Bandwidth mode</h2>
-      <button id="lowBandwidthBtn">Low Bandwidth Mode</button>
-    </div>
-    <div class="crowdestimation">
-      <h2>Crowd Estimation</h2>
-      <p>Select a bus route to see crowd estimation here.</p>
-    </div>
+    <div class="features">
+        <div class="city">
+        <label for="city">Choose your city:</label>
+        <select id="city" name="city">
+        <option value="">--Select a city--</option>
+        <option value="delhi">Delhi</option>
+        <option value="mumbai">Mumbai</option>
+        <option value="bengaluru">Bengaluru</option>
+        <option value="kolkata">Kolkata</option>
+        <option value="chennai">Chennai</option>
+        </select>
+        </div>
+        <div class="busroute">
+        <label for="busroute">Choose your bus route:</label>
+        <select id="busroute" name="busroute">
+        <option value="">--Select a bus route--</option>
+        <option value="route1">Route 1</option>
+        <option value="route2">Route 2</option>
+        <option value="route3">Route 3</option>
+        <option value="route4">Route 4</option>
+        <option value="route5">Route 5</option>
+        </select>
+        </div>
+        <div class="map">
+        <h2>Map will be displayed here</h2>
+        <p>(Map integration coming soon)</p>
+        </div>
+        <div class="info">
+        <h2>Bus Information</h2>
+        <p>Select a city and bus route to see details here.</p>
+        </div>
+        <div class="eta">
+        <h2>Estimated Time of Arrival (ETA)</h2>
+        <p>Select a bus route to see ETA here.</p>
+        </div>
+        <div class="routeinfo">
+        <h2>Route Information</h2>
+        <p>Select a bus route to see route details here.</p>
+        </div>
+        <div class="lowbandwidthbutton">
+        <h2>Click Here to select low Bandwidth mode</h2>
+        <button id="lowBandwidthBtn">Low Bandwidth Mode</button>
+        </div>
+        <div class="crowdestimation">
+        <h2>Crowd Estimation</h2>
+        <p>Select a bus route to see crowd estimation here.</p>
+        </div>
+        </div>
+    
   </main>
   
 </body>
